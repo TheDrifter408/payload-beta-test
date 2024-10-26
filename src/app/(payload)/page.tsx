@@ -8,7 +8,7 @@ export default async function Home(){
     //get current logged in user
     const cookieStore = cookies();
     const token = (await cookieStore).get('payload-token')?.value;
-    const userRequest = await fetch(`http://localhost:3000/api/users/me`,{
+    const userRequest = await fetch(`${process.env.NEXT_PUBLIC_CMS_URL}/api/users/me`,{
         headers:{
             Authorization:`JWT ${token}`
         }
