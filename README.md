@@ -21,4 +21,4 @@ The purpose is to show role based access, where the admin can create the roles w
 - Contributer can **ONLY** read articles
 
 # What I haven't achieved:
-I haven't been able to configure it so that a particular user with the role `contributer` be able to update only and individual field 'Comments' in the articles table.
+I haven't been able to configure it so that a particular user with the role `contributer` be able to update only an individual field 'Comments' in the articles table.
