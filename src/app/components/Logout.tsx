@@ -4,7 +4,7 @@ import { FormEvent } from "react"
 export default function Logout(){
     async function onSubmit(event:FormEvent<HTMLFormElement>){
         event.preventDefault();
-        await fetch(`${process.env.NEXT_PUBLIC_CMS_URL}/api/users/logout`,{
+        await fetch(`${process.env.NEXT_PUBLIC_PAYLOAD_URL}/api/users/logout`,{
             method:'POST',
             headers:{
                 'Content-type':'application/json',
