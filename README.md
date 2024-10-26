@@ -30,5 +30,6 @@ git clone git@github.com:TheDrifter408/payload-beta-test.git
 
 ```bash
 cd payload-beta-test
-npm install npm run dev
+npm install 
+npm run dev
 ```
