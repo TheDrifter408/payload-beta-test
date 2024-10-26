@@ -22,3 +22,13 @@ The purpose is to show role based access, where the admin can create the roles w
 
 # What I haven't achieved:
 I haven't been able to configure it so that a particular user with the role `contributer` be able to update only an individual field 'Comments' in the articles table.
+
+## How to run it:
+```bash
+git clone git@github.com:TheDrifter408/payload-beta-test.git
+```
+
+```bash
+cd payload-beta-test
+npm install npm run dev
+```
