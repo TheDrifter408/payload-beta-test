@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.w-90 {
+    width:90%;
+    margin-inline:auto;
+}
+.heading {
+    display:flex;
+    justify-content: space-between;
+    padding-block: 10px;
+}
+
+.button-link {
+    background-color: rgba(255, 255, 255,0.9);
+    border:none;
+    border-radius: 8px;
+    color: black;
+    padding-inline: 10px;
+    transition: all 500ms ease-in;
+    a {
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    &:hover {
+        background-color: rgba(255, 255, 255,0.1);
+        color:white;
+    }
+}
+
+.article {
+    max-width: 90%;
+    margin-inline:auto;
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    p {
+        font-family: monospace;
+        font-size:1.15rem;
+    }
+}
